@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Carryalls | Intercontinental Transport（fork）</name>
+  <packageId>Mlie.CarryallsIntercontinentalTransport</packageId>
+  <author>Nephlite, Telefonmast | 1.7 fork fix</author>
+  <url>https://github.com/emipa606/CarryallsIntercontinentalTransport</url>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>Shashlichnik.srtsexpanded</li>
+  </incompatibleWith>
+  <description>[h1][b]fork 版：RimWorld 1.7 [/b][/h1]
+这是原版 Carryalls 的 fork，只修 bug，内容不变：模型、数值、研究、翻译与原版完全一致。
+
+[b]修了什么[/b]：1.7 里选中运输舱 / 运输机 / 穿梭机时，右下角按钮整块消失（发射、拆除、禁用全都没了）。
+原因是本 mod 内含的 SRTS 代码在开局时给世界地图图标打的一个 1.6 版 Harmony 补丁在 1.7 上编译失败，
+使 SRTS.StartUp 这个静态类永久处于错误状态；之后每次生成运输舱的按钮都会撞上这个错误，
+而 RimWorld 的按钮面板是"整块用一个 try 包住"的，于是整块按钮被丢弃。
+
+[b]注意[/b]：本 fork 与原版是同一个 packageId，两者不能同时启用。启用本 fork 前，请在 mod 列表里把
+Steam 工坊的原版（Carryalls | Intercontinental Transport (Continued)）取消勾选，存档可直接读取。
+
+[img]https://img.litet.net/logos/Info.png[/img]
+Update of Nephlite, Telefonmasts mod https://steamcommunity.com/sharedfiles/filedetails/?id=2901034783
+
+[img]https://img.litet.net/logos/Notice.png[/img]
+
+[table]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/CarryallsIntercontinentalTransport][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
+[h1][b]Reach every corner of the planet![/b][/h1]
+Adds several types of Carryall - VTOL aircrafts designed for intercontinental transport.
+
+Carryalls were created to complement RimWorld's boring caravan content. The carryall is meant to be a late game transportation option, so getting and building one is pretty difficult. This is obviously quite OP, but adds more fun options to the game.
+
+All of the artworks were created by me, most of them inspired by Command and Conquer.
+
+
+[h1]Contents[/h1]
+[b]Standard Carryall[/b]
+A minor replica model of the standard space shuttle from the stellar empire, but with no orbital navigation capabilities. It can completely free your settlement from isolation.
+
+[b]Ox Carryall[/b]
+A rare model of the carryall used by the ancients who worshiped a turkey-like symbol. Optimized for mass transportation, with large storage capacity, but the cabin may get cramped. This is also equipped with a small turret.
+
+[b]Vertigo Carryall[/b]
+A rare model of  the carryall used by the ancients who worshiped an insect-like symbol. It was optimized for assault operations, can transport large numbers of people quickly and far, but at the cost of storage capacity. This is also equipped with a minigun turret.
+
+[b]Kirov Airship[/b]
+An airship model used by the ancients who liked to paint everything red. It's just slightly faster than walking speed, but unaffected by terrain so can easily cross sea and mountains.This is not the bomber, but sometimes, triggering the explosion from Kirov can be a help in battle.
+
+
+[h1]Things that easy to make confused[/h1]
+- Carryall follows the rules of the Droppod. It means the carryall doesn't recognize items in the field. Only items in stockpile zones are recognized. This confusion easily occurs after you raid the enemy base.
+
+- Some carryalls is equipped with the turret. This is helpful in battle, but consumes a lot of fuel. Turn it off when you don't need it..Always remember that you need enough fuel to get back home.
+
+- The 1x1 tile below the landing carryall is a dead zone. If there is a pawn in that range, will take damage.
+
+
+[h1]Recommanded mods[/h1]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2572683272]Better Explosions[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1470065926]Set Up Camp[/url]
+
+
+[h1]Conflicts Warning:[/h1]
+- [url=https://steamcommunity.com/workshop/filedetails/?id=2878587061]SRTS Expanded[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2879336912]Transport Shuttle[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2834132683]Transport Shuttle Standalone[/url]
+My mod uses the core code in SRTS but the sub parts and XML structure is mine. Art, balance, visual effect, and convenience features have been completely replaced, that's why it's incompatible.
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2890901044]Combat Extended[/url]
+My mod uses vanilla weapon settings.
+
+
+[h1]Credits:[/h1]
+Thanks to all  [b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1845423808]SRTS Expanded authors[/url][/b] for allowing their original code to be used and modified.
+Thanks to [b][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2879336912]Azazellz[/url][/b] for permission to use the modified code.
+
+
+[h1]Known Issues[/h1]
+- Auto drops all payloads as the carryall lands: This problem is almost impossible to solve by my ability. I will register as a contributor to this mod anyone who can solve this!
+
+- Sometimes, once boarding is denied due to a weight or seat limit, the direct boarding command will not work even if the weight is subsequently corrected. This will only work again after fully resetting the cargo.
+
+- Since items similar to those in my mod now exist in vanilla 1.6, this mod will discontinue support.
+
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3642349335][img]https://img.shields.io/github/v/release/emipa606/CarryallsIntercontinentalTransport?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  intercontinental,  transportation.</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+</ModMetaData>

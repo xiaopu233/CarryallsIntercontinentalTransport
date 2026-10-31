@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 138087904
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cda5ae98d90ac4b86a10087c70329527
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cda5ae98d90ac4b86a10087c70329527
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/AirshipBasic_R.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/CarryallGas.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/Rotate.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/Carryall_Icon.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/AirshipKirov.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/CarryallBasic.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/Bullet_Base_GDI.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/CarryallNod_R.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Missile/MissileBasic.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/AddToCarryall.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/CarryallNod.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/AirshipKirov_R.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/CarryallGDI.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/Bullet_Base_Nod.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/Blank.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/DirectionArrow.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/AirshipBasic.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/CarryallBasic_R.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Carryall/CarryallGDI_R.png
+- Assets/Data/Mlie.CarryallsIntercontinentalTransport/Textures/Misc/Detonate.png
+Dependencies: []

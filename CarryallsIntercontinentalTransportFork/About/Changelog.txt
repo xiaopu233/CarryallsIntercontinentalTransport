@@ -1,0 +1,37 @@
+# Changelog for CarryallsIntercontinentalTransport
+
+1.7-fork.3 - Small runtime optimisations + 1.7 patch audit
+- NoLaunchGroupForSRTS gets a fast path: transports without CompProperties_LaunchableSRTS
+  now skip the method entirely (cached per ThingDef) instead of running its ToList()/Translate()
+  work on every gizmo request.
+- SRTSHelper.ContainedInDefProjects now uses a cached lookup instead of a linear scan of
+  srtsDefProjects (the research tab calls it per research node, per frame).
+- New startup audit: every [HarmonyPatch] target of the mod assembly is re-resolved after
+  loading and the ones that no longer exist on this game version are logged as a warning.
+- No gameplay change. See 1.7适配与优化复查.md for the full review of the remaining
+  performance / logic findings (they require a source rebuild).
+
+1.7-fork.2 - Simplified Chinese translation rewritten
+- The shipped zh-CN files were a raw DeepL dump: 'per tile' had become 'per watt' (每瓦),
+  'carryall' was translated as suitcase / handbag / basket / truck in five different ways,
+  two descriptions had whole sentences dropped, and some labels were never translated.
+  All 6 files under Languages/ChineseSimplified were retranslated by hand. No key changes.
+
+1.7-fork.1 - Local fork for RimWorld 1.7 (Waylith)
+- Added CarryallsForkFix.dll: three layer runtime guard for the 1.7 gizmo crash.
+  1) the 1.6 world-map icon transpiler (ExpandableWorldObjectsOnGUI) is neutralised,
+     so Harmony can apply it without emitting invalid IL;
+  2) a finalizer on SRTS.StartUp's static constructor stops a failing patch class from
+     faulting the type (which used to make every transport gizmo throw
+     TypeInitializationException and wipe out the whole gizmo panel);
+  3) a finalizer on CompTransporter.CompGetGizmosExtra keeps the remaining buttons usable
+     even if a transporter gizmo provider throws.
+- supportedVersions now includes 1.7, LoadFolders has a v1.7 entry (reuses the 1.6 content).
+- No gameplay, def, balance, texture or translation changes.
+
+1.6.1 - Fixed metadata
+
+
+1.6.0 - First publish
+Used DeepL to update translations for ChineseSimplified, French, German
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 简体中文：人工重译 -->
+  <!-- EN: carryall -->
+  <TravelingSRTS_Carryall.label>运输机</TravelingSRTS_Carryall.label>
+  <!-- EN: A carryall in flight. -->
+  <TravelingSRTS_Carryall.description>正在执行飞行任务的运输机。</TravelingSRTS_Carryall.description>
+</LanguageData>

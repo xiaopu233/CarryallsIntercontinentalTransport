@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 简体中文：人工重译，修正机翻的“每瓦（per tile）/手提箱/牛车/提篮”等错误 -->
+  <!-- EN: kirov airship -->
+  <Airship_Kirov.label>基洛夫飞艇</Airship_Kirov.label>
+  <!-- EN: A huge airship model used by the ancients who liked to paint everything red. Its original bomb rack is not ready due to lost technology, but still easy to the explode. Beware the fire.\n\nSeat: 6\nSpeed: 1\nCargo capacity: 600kg\n\nFuel capacity: 150\nFuel efficiency: 1 per tile -->
+  <Airship_Kirov.description>古人喜欢把一切都涂成红色，这是他们留下的大型飞艇型号。它原本的炸弹挂架因技术失传已无法使用，但它依旧很容易炸开——注意防火。
+
+座位：6
+速度：1
+载重：600 千克
+
+燃料容量：150
+燃料消耗：每格 1</Airship_Kirov.description>
+  <!-- EN: vapor -->
+  <Bullet_KirovTurret.label>蒸汽弹</Bullet_KirovTurret.label>
+  <!-- EN: bullet -->
+  <Bullet_MediumCarryallTurret.label>子弹</Bullet_MediumCarryallTurret.label>
+  <Bullet_MiniCarryallTurret.label>子弹</Bullet_MiniCarryallTurret.label>
+  <!-- EN: ox carryall -->
+  <Carryall_GDI.label>公牛运输机</Carryall_GDI.label>
+  <!-- EN: A rare model of the carryall used by the ancients who worshiped a turkey-like symbol. Optimized for mass transportation, it is rather cramped up due to the extra storage.\n\t\t\nOx carryall is equipped with a small turret. This is helpful in battle, but consumes a lot of fuel. Always remember that you need enough fuel to get back home.\n\nSeat: 4\nSpeed: 3.5\nCargo capacity: 1,400kg\n\nFuel capacity: 600\nFuel efficiency: 3 per tile -->
+  <Carryall_GDI.description>古人崇拜一个火鸡状的标志，这是他们用过的稀有运输机型号。它为大规模运输做了优化，因为额外加了货舱，机内相当拥挤。
+
+公牛运输机装有一门小型炮塔。战斗中很好用，但很耗油——永远记得留够返航的燃料。
+
+座位：4
+速度：3.5
+载重：1,400 千克
+
+燃料容量：600
+燃料消耗：每格 3</Carryall_GDI.description>
+  <!-- EN: vertigo carryall -->
+  <Carryall_Nod.label>眩晕运输机</Carryall_Nod.label>
+  <!-- EN: A rare model of the carryall used by the ancients who worshiped an insect-like symbol. It was optimized for assault operations, can transport large numbers of people quickly and far, but at the cost of storage capacity.\n\t\nVertigo carryall is equipped with a minigun turret. This is helpful in battle, but consumes a lot of fuel. Always remember that you need enough fuel to get back home.\n\nSeat: 10\nSpeed: 5\nCargo capacity: 800kg\n\nFuel capacity: 450\nFuel efficiency: 3 per tile -->
+  <Carryall_Nod.description>古人崇拜一个虫形的标志，这是他们用过的稀有运输机型号。它为突击作战做了优化，能迅速把人送得很远，代价是货舱容量。
+
+眩晕运输机装有一挺速射机枪炮塔。战斗中很好用，但很耗油——永远记得留够返航的燃料。
+
+座位：10
+速度：5
+载重：800 千克
+
+燃料容量：450
+燃料消耗：每格 3</Carryall_Nod.description>
+  <!-- EN: standard carryall -->
+  <Carryall_standard.label>标准运输机</Carryall_standard.label>
+  <!-- EN: A minor replica model of the standard space shuttle from the stellar empire, but with no orbital navigation capabilities. No longer are you bound to your settlement.\n\nSeats: 5\nSpeed: 4\nCargo capacity: 450kg\n\nFuel capacity: 200\nFuel efficiency: 1.5 per tile -->
+  <Carryall_standard.description>仿制星际帝国标准航天飞机的小型型号，但不具备轨道航行能力。你从此不必再被定居点困住。
+
+座位：5
+速度：4
+载重：450 千克
+
+燃料容量：200
+燃料消耗：每格 1.5</Carryall_standard.description>
+  <!-- EN: steam nozzle -->
+  <Gun_KirovTurret.label>蒸汽喷嘴</Gun_KirovTurret.label>
+  <!-- EN: The kirov airship can small vapor explosion at nearby targets via external nozzles. It's not very effective in combat, but it's worth a try. -->
+  <Gun_KirovTurret.description>基洛夫飞艇可以通过外置喷嘴，在附近目标处制造小范围蒸汽爆炸。战斗效果一般，但值得一试。</Gun_KirovTurret.description>
+  <Gun_KirovTurret.verbs.Verb_Shoot.label>蒸汽喷嘴</Gun_KirovTurret.verbs.Verb_Shoot.label>
+  <!-- EN: medium carryall turret gun -->
+  <Gun_MediumCarryallTurret.label>中型运输机炮塔机枪</Gun_MediumCarryallTurret.label>
+  <!-- EN: A automatic minigun made to be mounted on a turret. -->
+  <Gun_MediumCarryallTurret.description>一款为装在炮塔上而设计的自动速射机枪。</Gun_MediumCarryallTurret.description>
+  <Gun_MediumCarryallTurret.verbs.Verb_Shoot.label>中型运输机炮塔机枪</Gun_MediumCarryallTurret.verbs.Verb_Shoot.label>
+  <!-- EN: carryall turret gun -->
+  <Gun_MiniCarryallTurret.label>运输机炮塔机枪</Gun_MiniCarryallTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a turret. -->
+  <Gun_MiniCarryallTurret.description>一款为装在炮塔上而设计的简易自动枪。</Gun_MiniCarryallTurret.description>
+  <Gun_MiniCarryallTurret.verbs.Verb_Shoot.label>运输机炮塔机枪</Gun_MiniCarryallTurret.verbs.Verb_Shoot.label>
+  <!-- EN: standard airship -->
+  <Airship_Standard.label>标准飞艇</Airship_Standard.label>
+  <!-- EN: An airship with standard specifications. It's just slightly faster than walking speed, but unaffected by terrain so can easily cross sea and mountains.\n\nSeat: 3\nSpeed: 1\nCargo capacity: 200kg\n\nFuel capacity: 100\nFuel efficiency: 0.5 per tile -->
+  <Airship_Standard.description>规格标准的飞艇。速度只比步行快一点，但不受地形影响，可以轻松越过海洋和山脉。
+
+座位：3
+速度：1
+载重：200 千克
+
+燃料容量：100
+燃料消耗：每格 0.5</Airship_Standard.description>
+</LanguageData>

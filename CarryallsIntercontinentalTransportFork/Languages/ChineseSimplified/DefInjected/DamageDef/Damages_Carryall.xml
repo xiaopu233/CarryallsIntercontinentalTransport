@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 简体中文：人工重译 -->
+  <!-- EN: crush -->
+  <Lands_Carryall.label>碾压</Lands_Carryall.label>
+  <!-- EN: {0} has has been crushed to death by a carryall. -->
+  <Lands_Carryall.deathMessage>{0} 被运输机压死了。</Lands_Carryall.deathMessage>
+  <!-- EN: steam blast -->
+  <Steam_Carryall.label>蒸汽爆炸</Steam_Carryall.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <Steam_Carryall.deathMessage>{0} 死于爆炸。</Steam_Carryall.deathMessage>
+</LanguageData>

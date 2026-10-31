@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 简体中文：人工重译（原为 DeepL 机翻，“carryall”曾误译为“手提箱/牛车”） -->
+  <!-- EN: airship -->
+  <Research_Airships.label>飞艇</Research_Airships.label>
+  <!-- EN: Basic research for airships designed for transportation. Unlocks the standard airship. -->
+  <Research_Airships.description>面向运输用途的飞艇基础研究。解锁标准飞艇。</Research_Airships.description>
+  <!-- EN: ox carryall -->
+  <Research_Carryall_GDI.label>公牛运输机</Research_Carryall_GDI.label>
+  <!-- EN: Unlocks the Ox carryall for mass transport. -->
+  <Research_Carryall_GDI.description>解锁用于大规模运输的公牛运输机。</Research_Carryall_GDI.description>
+  <!-- EN: vertigo carryall -->
+  <Research_Carryall_Nod.label>眩晕运输机</Research_Carryall_Nod.label>
+  <!-- EN: Unlocks the Vertigo carryall for assault mission. -->
+  <Research_Carryall_Nod.description>解锁用于突击任务的眩晕运输机。</Research_Carryall_Nod.description>
+  <!-- EN: carryall -->
+  <Research_Carryalls.label>运输机</Research_Carryalls.label>
+  <!-- EN: Basic research on VTOL aircrafts designed for intercontinental transportation. Unlocks the standard carryall. -->
+  <Research_Carryalls.description>面向洲际运输的垂直起降（VTOL）飞行器基础研究。解锁标准运输机。</Research_Carryalls.description>
+  <!-- EN: airship (Kirov research node) -->
+  <Research_Kirov.label>基洛夫飞艇</Research_Kirov.label>
+  <!-- EN: Unlocks the kirov airship for mass transportation and suicide mission. -->
+  <Research_Kirov.description>解锁用于大规模运输和自杀式突击的基洛夫飞艇。</Research_Kirov.description>
+</LanguageData>

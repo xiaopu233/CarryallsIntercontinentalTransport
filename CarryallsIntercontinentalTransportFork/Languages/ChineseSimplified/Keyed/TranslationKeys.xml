@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 简体中文：人工重译。原机翻问题：per tile → “每瓦/每块瓷砖”，pawn → “棋子”，Board → “板”，
+       carryall → “手提箱/提篮”，并把 CA_SelfDestructDesc、CA_ConfirmationScreen 的整段内容漏译。 -->
+  <CA_Storage>货物重量：{0}</CA_Storage>
+  <CA_PassengerCapacity>座位：{0}</CA_PassengerCapacity>
+  <CA_WarningSeatsFull>座位已满，无法把小人加入编队：{0}</CA_WarningSeatsFull>
+  <CA_Rotate>旋转</CA_Rotate>
+  <CA_RotateDesc>把运输机朝相反方向旋转。</CA_RotateDesc>
+  <CA_AddToCarryall>选择货物</CA_AddToCarryall>
+  <CA_SelfDestruct>烟花</CA_SelfDestruct>
+  <CA_SelfDestructDesc>点燃机体，触发不受控的自毁程序。若飞艇损伤已达 60%，会立刻爆炸；若尚未达到，则可以熄灭火势来取消。
+
+做好爆炸准备！</CA_SelfDestructDesc>
+  <CA_ConfirmationScreen>警告：直线长途飞行风险很高。飞行指令一旦下达便无法中途取消，返程的燃料和食物也未必足够。
+
+确定要继续吗？</CA_ConfirmationScreen>
+  <CA_ConfirmAtDistance>最小确认距离</CA_ConfirmAtDistance>
+  <CA_ConfirmDistanceToolTip>设定一个最小格数：只有航程超过这个距离时，起飞前才会弹出警告。</CA_ConfirmDistanceToolTip>
+  <!-- for SRTS code-->
+  <!-- Labels and Titles -->
+  <SRTSExpanded>Carryalls</SRTSExpanded>
+  <SRTSDef>Carryalls 定义</SRTSDef>
+  <!-- Settings -->
+  <ResetDefault>重置</ResetDefault>
+  <ResetDefaultTooltip>恢复默认值</ResetDefaultTooltip>
+  <ResetThisSRTS>重置此项</ResetThisSRTS>
+  <ResetAll>全部重置</ResetAll>
+  <DefaultValues>默认值</DefaultValues>
+  <CustomValues>自定义值</CustomValues>
+  <MainSettings>主要设置</MainSettings>
+  <PassengerLimit>乘客数量限制</PassengerLimit>
+  <PassengerLimitTooltip>强制限制运输机的乘客人数上下限</PassengerLimitTooltip>
+  <DisplayHomeItems>显示全部物品</DisplayHomeItems>
+  <DisplayHomeItemsTooltip>在非主基地地图上装载运输机时，显示该地图上的全部物品（而不只是仓库区里的）。</DisplayHomeItemsTooltip>
+  <DefSettings>属性</DefSettings>
+  <DynamicWorldObjectSRTS>世界地图动态贴图</DynamicWorldObjectSRTS>
+  <DynamicWorldObjectSRTSTooltip>在世界地图上动态绘制运输机贴图，让图标跟着机体一起旋转</DynamicWorldObjectSRTSTooltip>
+  <ExpandBombPoints>扩展轰炸目标</ExpandBombPoints>
+  <ExpandBombPointsTooltip>此功能不可用。</ExpandBombPointsTooltip>
+  <AllowedBombs>允许使用的炸药（轰炸任务）</AllowedBombs>
+  <ChangeItemSRTS>编辑</ChangeItemSRTS>
+  <SearchExplosive>添加物品</SearchExplosive>
+  <CurrentExplosives>允许使用的炸药</CurrentExplosives>
+  <SRTSBoardingOptions>登机选项</SRTSBoardingOptions>
+  <AllowDownedSRTS>允许倒地小人登机</AllowDownedSRTS>
+  <AllowUnsecurePrisonerSRTS>允许未受管控的囚犯登机</AllowUnsecurePrisonerSRTS>
+  <AllowCapturablePawnSRTS>允许可被俘虏的小人登机</AllowCapturablePawnSRTS>
+  <SOS2Compatibility>Save Our Ship 2 选项</SOS2Compatibility>
+  <SpaceFaring>太空航行</SpaceFaring>
+  <ShuttleBayLanding>穿梭机机库着陆</ShuttleBayLanding>
+  <NonSpaceFaringSRTS>{0} 无法进入轨道</NonSpaceFaringSRTS>
+  <SRTSSettings>Carryalls 设置</SRTSSettings>
+  <FlightSpeed>飞行速度</FlightSpeed>
+  <Instant>瞬间</Instant>
+  <FuelEfficiency>燃料成本</FuelEfficiency>
+  <FuelEfficiencySymbol>（每格）</FuelEfficiencySymbol>
+  <CargoCapacity>载重</CargoCapacity>
+  <MinPassengers>最少乘客</MinPassengers>
+  <MaxPassengers>最多乘客</MaxPassengers>
+  <SRTSResearch>研究成本</SRTSResearch>
+  <SRTSResearchRequirements>所需研究</SRTSResearchRequirements>
+  <BombSettings>轰炸设置</BombSettings>
+  <BombSpeed>飞行速度（轰炸任务）</BombSpeed>
+  <RadiusDrop>轰炸半径</RadiusDrop>
+  <BombCountSRTS>炸弹数量</BombCountSRTS>
+  <CarpetBombing>地毯式轰炸</CarpetBombing>
+  <PreciseBombing>精确投弹</PreciseBombing>
+  <DistanceBetweenDrops>投弹间距</DistanceBetweenDrops>
+  <CellsEndValue> 格</CellsEndValue>
+  <SingleDrop>单发投放</SingleDrop>
+  <ResearchSettings>研究</ResearchSettings>
+  <ResearchDef>{0} 研究项目</ResearchDef>
+  <SearchResearch>添加研究项目</SearchResearch>
+  <AddItemSRTS>添加</AddItemSRTS>
+  <RemoveResearch>移除</RemoveResearch>
+  <RestartGameResearch>重启游戏后新的研究设置才会生效</RestartGameResearch>
+  <!-- Float Menu -->
+  <BoardSRTS>登上 {0}</BoardSRTS>
+  <JoinSRTSGroup>加入运输机登机编队</JoinSRTSGroup>
+  <!-- Messages -->
+  <SRTSNoPilot>没有飞行员，无法派出运输机。</SRTSNoPilot>
+  <NotEnoughPilots>飞行员不足，无法起飞</NotEnoughPilots>
+  <TooManyPilots>殖民者过多，无法起飞</TooManyPilots>
+  <BombRunStarted>轰炸任务已开始。</BombRunStarted>
+  <CannotBombMap>当前没有已加载的活动地图，无法在此轰炸。</CannotBombMap>
+  <CommandAddFuelSRTS>加油：{0}</CommandAddFuelSRTS>
+  <CommandAddFuelDescSRTS>从库存中为运输机添加燃料</CommandAddFuelDescSRTS>
+  <AddFuelSRTSCaravan>已向 {1} 添加 {0} 单位燃料。</AddFuelSRTSCaravan>
+  <NoFuelSRTSCaravan>没有可用燃料</NoFuelSRTSCaravan>
+  <!-- Caravans -->
+  <!-- Status and Compatibility-->
+  <CommandLaunchOrbit>发射入轨</CommandLaunchOrbit>
+  <CommandLaunchOrbitDesc>发射前往轨道上的地点</CommandLaunchOrbitDesc>
+  <!-- Gizmo -->
+  <BombTarget>轰炸目标</BombTarget>
+  <BombTargetDesc>在另一张地图上选择目标并投下炸弹。</BombTargetDesc>
+  <carryalls.CurrentModVersion>已安装的 mod 版本：{0}</carryalls.CurrentModVersion>
+</LanguageData>
